@@ -1,8 +1,16 @@
 <template>
 <div>
+    <AppMenu />
     <Nuxt />
 </div>
 </template>
+
+<script>
+import AppMenu from '@/components/AppMenu.vue';
+export default {
+    AppMenu,
+}
+</script>
 
 <style>
 html {

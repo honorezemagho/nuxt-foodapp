@@ -1,0 +1,20 @@
+<template>
+<nav>
+    <li>
+        <nuxt-link exact to="/">Home</nuxt-link>
+    </li>
+    <li>
+        <nuxt-link to="/about">About</nuxt-link>
+    </li>
+</nav>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
