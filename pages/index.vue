@@ -1,11 +1,21 @@
 <template>
-<div class="container">
-    <h1>Hi from home page</h1>
-</div>
+<main>
+    <div class="container">
+        <AppHeader />
+    </div>
+    <AppRestaurantInfo />
+</main>
 </template>
 
 <script>
-export default {}
+import AppHeader from '@/components/AppHeader.vue';
+import AppRestaurantInfo from '@/components/AppRestaurantInfo.vue';
+export default {
+    components: {
+        AppHeader,
+        AppRestaurantInfo
+    },
+}
 </script>
 
 <style>
