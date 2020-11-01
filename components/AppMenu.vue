@@ -4,7 +4,7 @@
         <nuxt-link exact to="/">Home</nuxt-link>
     </li>
     <li>
-        <nuxt-link to="/about">About</nuxt-link>
+        <nuxt-link to="/restaurants">Restaurant</nuxt-link>
     </li>
 </nav>
 </template>
