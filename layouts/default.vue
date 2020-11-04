@@ -34,6 +34,7 @@ html {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
+    line-height: 1.4;
 }
 
 *,
@@ -49,6 +50,6 @@ h3,
 h4 {
     font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
         'Helvetica Neue', Arial, sans-serif;
-    font-weight: 300;
+    font-weight: 600;
 }
 </style>
