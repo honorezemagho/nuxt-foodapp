@@ -9,6 +9,11 @@ export const getters = {
   totalPrice: state => {
     if(!state.cart.length) return 0
     return state.cart.reduce((ac, next) => ac + + next.combinedPrice, 0)
+  },
+
+  cartItems: state => {
+    if(!state.cart.length) return 0
+    return state.cart.length
   }
 }
 
